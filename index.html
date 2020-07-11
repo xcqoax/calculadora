@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="contenedor">    
+
+     <form name="form">
+         <input  class="viewer" name="viewer">
+     </form>   
+
+    <table id="tabla">
+        <tr>
+            <td><input class="btn" type="button" value="c" id="clear"></td>
+            <td><input class="btn" type="button" value="<" id="regresar"></td>
+            <td><input class="btn" type="button" value=" / " id="division"></td>
+            <td><input class="btn" type="button" value=" X " id="multi"></td>
+        </tr>
+
+        <tr>
+            <td><input class="btn" type="button" value="7" id="siete"></td>
+            <td><input class="btn" type="button" value="8" id="ocho"></td>
+            <td><input class="btn" type="button" value="9" id="nueve"></td>
+            <td><input class="btn" type="button" value="-" id="resta"></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="4" id="cuatro"></td>
+            <td><input class="btn" type="button" value="5" id="cinco"></td>
+            <td><input class="btn" type="button" value="6" id="seis"></td>
+            <td rowspan=2><input class="btn" type="button" value=" + " id="suma" style="height:100"></td>
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="1" id="uno"></td>
+            <td><input class="btn" type="button" value="2" id="dos"></td>
+            <td><input class="btn" type="button" value="3" id="tres"></td>
+            
+        </tr>
+        <tr>
+            <td><input class="btn" type="button" value="0" id="cero"></td>
+            <td><input class="btn" type="button" value="." id="punto"></td>
+            <td colspan=2><input class="btn" type="button" value="=" id="igual" style="width:106"></td>
+            
+        </tr>
+    </table>
+</div>
+    
+
+
+ <script src="./script.js"></script>   
+</body>
+</html>
